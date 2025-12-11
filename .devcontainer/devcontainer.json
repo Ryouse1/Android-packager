@@ -1,0 +1,11 @@
+{
+"name": "Android Packager Dev",
+"dockerFile": "Dockerfile",
+"settings": {
+"terminal.integrated.shell.linux": "/bin/bash"
+},
+"postCreateCommand": "bash scripts/setup.sh",
+"features": {
+"ghcr.io/devcontainers/features/git:1": {}
+}
+}
